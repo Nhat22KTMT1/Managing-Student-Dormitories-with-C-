@@ -1,35 +1,34 @@
-                                    --------------DỰ ÁN QUẢN LÝ RA/VÀO KÝ TÚC XÁ--------------
+                                    --------------DORMITORY ENTRY/EXIT MANAGEMENT PROJECT--------------
 
-- Thực hiện:
-  - Trần Đăng Bách
-  - Trịnh Anh Nhật 
-- Giảng viên hướng dẫn: Nguyễn Duy Nhật Viễn
+Developed by:
+Trần Đăng Bách
+Trịnh Anh Nhật
+Project Supervisor: Nguyễn Duy Nhật Viễn
 
-1. GIỚI THIỆU
-- Đây là dự án dành cho sinh viên ở các ký túc xá cũng như các nhân viên quản lý ký túc xá.
+1. INTRODUCTION
+- This project is designed for dormitory management staff.
 
-2. ĐIỀU KIỆN
-- Bạn đã cài phiên bản mới nhất của C++ và có các chương trình biên dịch cho nó.
-- Hiện nay có rất nhiều bộ thông dịch phổ biến nhất hiện nay: Vscode, DevC++, Codeblock,... Bạn có thể cài 1 trong số chúng. 
+2. REQUIREMENTS
+- Ensure that you have the latest version of C++ and a compatible compiler installed. Several popular IDEs include VS Code, DevC++, and Codeblocks; you may choose any one of these.
 
-3. CÁCH SỬ DỤNG
-- Hệ thống bao gồm 2 hệ thống: hệ thống dành cho nhân viên quản lý và dành cho Người dùng(sinh viên)
-a. Quản lý: Có những mục bao gồm thêm sinh viên, xoá sinh viên, xem danh sách sinh viên, xem lịch sử ra vào. Ngoài ra Người quản lý còn có thể thực hiện đổi username và password.
-    
-    - Để truy cập chức năng quản lý, bạn phải thực hiện Đăng nhập. Username mặc định là: quanlyktx1, password mặc định là: 1111. 
-    - Tại mục thêm sinh viên, bạn lần lượt điền các thông tin như họ và tên, ngày sinh, số điện thoại, số phòng và số thẻ ktx. Các dữ liệu này sẽ  được lưu trong 1 file text là “DSSV.txt”.
-    - Tại mục xoá sinh viên, bạn chỉ cần nhập số thẻ ktx của sinh viên, dữ liệu của sinh viên đó trong file “DSSV.txt” sẽ được xoá.
+3. USAGE
+- The system includes two modules: one for management staff and one for users (students).
+a. Management Module:
+Functions include adding students, removing students, viewing the student list, and checking entry/exit history. Additionally, administrators can change the username and password.
 
-b. Phần dành cho người dùng là sinh viên:
+To access the management functions, log in with the default username quanlyktx1 and password 1111.
 
-- Tại đây có 2 chức năng đó là vào hoặc ra ký túc xá. Sinh viên sau khi chọn 1 trong 2 chức năng trên sẽ lần lượt nhập các thông tin sau: họ và tên, ngày sinh, số điện thoại, số phòng, số thẻ ktx. Sau khi nhập xong, hệ thống sẽ hiển thị lại các thông tin bạn vừa nhập đồng thời hiển thị thêm bạn vào/ra ktx thời gian nào theo định dạng:
+In the Add Student section, enter each student’s details: full name, date of birth, phone number, room number, and dormitory card number. This data is saved in a text file named “DSSV.txt.”
+In the Remove Student section, enter the student’s dormitory card number, and the respective student’s information in “DSSV.txt” will be deleted.
+b. User Module (for students):
+This module includes two main functions: entering or exiting the dormitory. After selecting one of these options, students will provide details including full name, date of birth, phone number, room number, and dormitory card number. The system then displays the entered information along with the entry or exit timestamp in the format:
 
-                                     Thoi gian vao/ra ktx: Thứ Tháng Ngày Giờ:phút:giây Năm
+                                     Entry/Exit Time: Day of the Week, Month Date, Hour:Minute:Second, Year
 
-- Ngoài ra các thông tin trên cũng như thời gian ra/vào sẽ được lưu lại trong file “lichsu.txt” để người quản lý có thể xem lịch sử
+- All data, including entry/exit times, is also saved in “lichsu.txt” so that management can review history records.
 
-4. LIÊN HỆ
- - Nếu bạn có ý tưởng giúp cải tiến hoặc tìm thấy bất kì lỗi nào trong hệ thống của chúng tôi. Xin hãy liên hệ với chúng tôi bằng các phương thức sau:
+4. CONTACT
+ - If you have suggestions for improvement or encounter any issues with our system, please reach out through the following:
 * FaceBook:
     - Trần Đăng Bách: https://www.facebook.com/dangbach204
     - Trịnh Anh Nhật: https://www.facebook.com/nhat.trinh.06
@@ -39,4 +38,4 @@ b. Phần dành cho người dùng là sinh viên:
 
 
 
-                                 -------------- CÁM ƠN VÌ ĐÃ GHÉ THĂM DỰ ÁN CỦA CHÚNG TÔI --------------
+                                 -------------- THANK YOU FOR VISITING OUR PROJECT --------------
